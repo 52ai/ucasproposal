@@ -1,0 +1,100 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[BoldFont, SlantFont, CJKchecksingle]{xeCJK}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{enumerate}
+% \setCJKmainfont[BoldFont=SimHei]{SimSun}
+% \setCJKmonofont{SimSun}
+\setCJKmainfont[BoldFont=SimHei]{Microsoft YaHei}
+\setCJKmonofont{Microsoft YaHei}
+%\setlength{\parindent}{2.4em}%传说中的首行缩进，但是貌似效果不好的样子
+\linespread{1.4}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}%改变封面字体的对齐方式
+\usepackage{indentfirst} %设置每一行首行缩进	
+
+
+\title{研究生学位论文开题报告}
+\author{XXX}
+\date{2017年2月23日}
+
+\begin{document}
+	\begin{titlepage}
+	\noindent
+	\includegraphics[width=\textwidth]{ucas.eps}
+		\begin{center}
+		\Huge
+		研究生学位论文开题报告
+		\end{center}
+	\vfill
+	\Large
+	\noindent
+	{\renewcommand{\arraystretch}{0.4}
+	\begin{tabular}{P{0.17\textwidth}P{0.25\textwidth}P{0.08\textwidth}P{0.3\textwidth}}
+	\centering
+	报告题目&\multicolumn{3}{c}{XXXX算法在XXXXXX预测中的应用研究}\\
+	\cline{2-4}\\
+	学生姓名&XXX&学号&XXXXXXXXXXXX\\
+	\cline{2-2}\cline{4-4}\\
+	指导教师&XXX&职称&XXXX\\
+	\cline{2-2}\cline{4-4}\\
+	学位类别&\multicolumn{3}{c}{工程硕士}\\
+	\cline{2-4}\\
+	学科专业&\multicolumn{3}{c}{计算机技术}\\
+	\cline{2-4}\\
+	研究方向&\multicolumn{3}{c}{XXXXXX}\\
+	\cline{2-4}\\
+	研究单位&\multicolumn{3}{c}{中国科学院国家空间中心}\\
+	\cline{2-4}\\
+	填报日期&\multicolumn{3}{c}{2016年2月23日}\\
+	\cline{2-4}\\
+	\end{tabular}}
+	
+	\begin{center}
+	\large 中国科学院大学制
+	\end{center}
+	\end{titlepage}
+	
+	\newpage
+	\thispagestyle{empty}
+	\begin{center}
+	\Large
+	填表说明
+	\end{center}
+	\large
+	\begin{enumerate}
+	\item{本表内容须真实、完整、准确。}
+	\item{“学位类别”名称：学术型学位填写哲学博士、教育学博士、理学博士、工学博士、农学博士、医学博士、管理学博士，哲学硕士、经济学硕士、法学硕士、教育学硕士、文学硕士、理学硕士、工学硕士、农学硕士、医学硕士、管理学硕士等；专业学位填写工程博士、工程硕士、工商管理硕士（MBA）、应用统计硕士、翻译硕士、应用心理硕士、农业推广硕士、工程管理硕士、药学硕士等。}
+	\item{“学科专业”名称：学术型学位填写“二级学科”全称；专业学位填写“培养领域”全称。}
+	\end{enumerate}
+	
+	\newpage
+	\thispagestyle{empty}
+	\renewcommand{\contentsname}{目~录}
+	\setcounter{page}{1}
+	\tableofcontents
+	
+	\newpage
+	\section{选题的背景及意义}
+		\subsection{选题背景}
+		\subsection{选题意义}		
+	\section{国内外本学科领域的发展现状与趋势}
+	\section{课题主要研究内容、预期目标}
+		\subsection{主要研究内容}
+		\subsection{总体设计}
+		\subsection{预期目标}
+	\section{拟采用的研究方法、技术路线、实验方案及其可行性分析}
+		\subsection{拟采用研究方法}
+		\subsection{技术路线}
+		\subsection{可行性分析}
+	\section{已有科研基础及所需科研条件}
+		\subsection{科研基础}
+		\subsection{科研条件}
+	\section{研究工作计划与进度安排}
+		\subsection{完成及在进行的工作}
+		\subsection{课题进度计划}
+	\newpage
+	\renewcommand{\refname}{参~考~文~献}
+	\begin{thebibliography}{9}
+	\bibitem{a} 王帆. \emph{基于故障树的空间有效载荷故障诊断系统研究[D]}. 中国科学院国家空间中心, 2007, 1
+	\end{thebibliography}
+\end{document}
